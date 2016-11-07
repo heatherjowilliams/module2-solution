@@ -9,6 +9,8 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 div#container {
@@ -25,21 +27,24 @@ h1 {
 }
 
 p {
-  border: 2px solid black;
-  background-color: #d4b5ca;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: black;
-}
-
-.title {
   border: 1px solid black;
   position: relative;
   right: 1px;
   top: 1px;
   font-size: 125%;
   text-align: right;
+}
+
+.title1 {
+  background-color: #ff0000;
+}
+
+.title2 {
+  background-color: #FFFF00;
+}
+
+.title3 {
+  background-color: #00FF00;
 }
 
 .text {
@@ -195,18 +200,18 @@ p {
 <div class="container">
   <div class="row">
 
-   <div class="col-lg-4 col-md-6 col-sm-12"><p class="title">CHICKEN BOX</p>
+   <div class="col-lg-4 col-md-6 col-sm-12"><p class="title1">CHICKEN BOX</p>
       <div class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</div>
     </div>
 
 
 
-    <div class="col-lg-4 col-md-6 col-sm-12"><p class="title">BEEF BOX</p>        
+    <div class="col-lg-4 col-md-6 col-sm-12"><p class="title2">BEEF BOX</p>        
        <div class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</div>
     </div>
 
 
-    <div class="col-lg-4 col-md-12 col-sm-12"><p class="title">SUSHI BOX</p>
+    <div class="col-lg-4 col-md-12 col-sm-12"><p class="title3">SUSHI BOX</p>
         <div class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</div>
     </div>
   </div>
