@@ -21,6 +21,14 @@ div#container {
   margin-right: 5px;
 }
 
+div.float { 
+  width: 80px;  
+  height: 35px; 
+  border: 1px solid;  
+  float: right; 
+  text-align: center;
+}
+
 
 h1 {
   margin-bottom: 30px;
@@ -41,21 +49,14 @@ p {
 
 .title1 {
   background-color: #ff0000;
-  float: right;
 }
 
 .title2 {
   background-color: #FFFF00;
-  position: relative;
-  left: 0px;
-  width: 9em;
 }
 
 .title3 {
   background-color: #00FF00;
-  position: relative;
-  left: 0px;
-  width: 9em;
 }
 
 .text {
@@ -214,18 +215,18 @@ p {
 <div class="container">
   <div class="row">
 
-   <div class="col-lg-4 col-md-6 col-sm-12 text"><p class="title1">CHICKEN</p>
+   <div class="col-lg-4 col-md-6 col-sm-12 text"><div class="float"><p class="title1">CHICKEN</p></div>
       <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</div>
     </div>
 
 
 
-    <div class="col-lg-4 col-md-6 col-sm-12 text"><p class="title2">BEEF</p>        
+    <div class="col-lg-4 col-md-6 col-sm-12 text"><div class="float"><p class="title2">BEEF</p></div>   
        <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</div>
     </div>
 
 
-    <div class="col-lg-4 col-md-12 col-sm-12 text"><p class="title3">SUSHI</p>
+    <div class="col-lg-4 col-md-12 col-sm-12 text"><div class="float"><p class="title3">SUSHI</p></div>
         <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</div>
     </div>
   </div>
